@@ -1,0 +1,8 @@
+caracter= input("Digite um carácter: ")
+altura= int(input("Digite a altura: "))
+altura_contador = altura/altura
+while True:
+    print(caracter * int(altura_contador))
+    altura_contador= altura_contador + 1
+    if altura_contador > altura:
+        break
