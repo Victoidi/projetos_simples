@@ -1,0 +1,9 @@
+numero= input('Dobrar o número: ')
+
+
+if numero.isdigit():
+    # vai verificar se a variável número contem somente numeros (digitos)
+    numero_float =float(numero)
+    print (f'O dobro de {numero} é {numero_float * 2 :.2f}')
+else:
+    print("Isso não é um número")
