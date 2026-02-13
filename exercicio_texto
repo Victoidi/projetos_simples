@@ -1,0 +1,15 @@
+nm=input('Digite o seu nome: ')
+ida= input("Digite a sua idade: ")
+
+if nm != '' and ida != '':
+    print(f'Seu nome é {nm}')
+    print(f'Seu nome invertido é {nm[::-1]}')
+    if ' ' in nm :
+        print('Seu nome contém espaços')
+    else:
+        print('Seu nome não contém espaços')
+    print(f'Seu nome tem {len(nm)} letras')
+    print(f'A primeira letra do seu nome é {0}')
+    print(f'A ultima letra do seu nome é {-1}.')
+else:
+    print('Desculpe, você deixou os campos vazios.')
