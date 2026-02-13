@@ -1,0 +1,45 @@
+#teste de número inteiro
+
+nm_int= input('Digite um número inteiro: ')
+
+#vereficar se o número digitado é inteiro
+
+if nm_int.isdigit():
+    nm_float=float(nm_int)
+    nm_teste= nm_float % 2
+    print(nm_teste)
+    if nm_teste == 0:
+        print(f"O número {nm_int:.1} é par")
+    else:
+        print(f"O número {nm_int} é impar")
+else:
+    print("O número digitado não é inteiro!")
+
+nm_int= input('Digite um número inteiro: ')
+try:
+if nm_int.isdigit():
+nm_float=float(nm_int)
+nm_teste= nm_float % 2
+print(nm_teste)
+if nm_teste == 0:
+            	print(f"O número {nm_int:.1} é par")
+        	else:
+            	print(f"O número {nm_int} é impar")
+else:
+print("O número digitado não é inteiro!")
+except:
+    print("O número digitado não é inteiro!")
+
+try:
+    hr=input("Digite a hora atual: ")
+    hr=int(hr)
+    if hr >= 00 and hr <= 11:
+        print("Bom dia!")
+    elif hr >= 12 and hr <= 17:
+        print("Boa tarde!")
+    elif hr >= 18 and hr <= 23:
+        print("Boa noite!")
+    else:
+        print("Horário invalido")
+except:
+    print ("erro")
