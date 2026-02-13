@@ -1,0 +1,18 @@
+numero = input('Dobrar o número: ')
+
+numero_float =float(numero)
+
+print (f'O dobro de {numero} é {numero_float * 2 :.2f}')
+
+# ": . n" é utilizado para formatar números, nesse caso, aparecerá até a segunda casa decimal
+
+'''
+Retorno
+numero = input('Dobrar o número: ')
+
+numero_float =float(numero)
+
+print (f'O dobro de {numero} é {numero_float * 2 :.2f}')
+'''
+
+
